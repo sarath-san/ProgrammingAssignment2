@@ -2,7 +2,7 @@ makeCacheMatrix <- function(x = matrix()) {
   #initialise the inverse matrix with null
   invMatrix<-NULL
   
-  #function to ste the value of data
+  #function to set the value of data
   set <- function(y){
     x<<-y
     invMatrix<-NULL
